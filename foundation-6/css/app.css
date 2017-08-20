@@ -35,6 +35,9 @@
     margin: 20px;
 }
 
+.main-caro img{
+    background-size: cover;
+}
 
 /*  Picture page
 ************************************************/
