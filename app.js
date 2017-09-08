@@ -4,7 +4,7 @@ $('.picture-grid').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
-    dots: true,
+    dots: false,
     mobileFirst: true,
       responsive: [
     {
@@ -20,7 +20,8 @@ $('.picture-grid').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        dots: true
       }
     },
     {
