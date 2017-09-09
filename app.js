@@ -5,6 +5,7 @@ $('.picture-grid').slick({
     slidesToScroll: 1,
     infinite: false,
     dots: false,
+    arrows: true,
     mobileFirst: true,
       responsive: [
     {
@@ -38,5 +39,14 @@ $('.picture-grid').slick({
 });
 
 $('.main-caro').slick({
-    dots: true
+    dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
+
+
+
+
+
+
+  
