@@ -44,9 +44,9 @@ $('.main-caro').slick({
   autoplaySpeed: 3000,
 });
 
+var lightbox = $('.gallery a').simpleLightbox();
 
+var lightbox2 =$('.gallery2 a').simpleLightbox();
 
-
-
-
+var lightbox3 =$('.gallery3 a').simpleLightbox();
   
