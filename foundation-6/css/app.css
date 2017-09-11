@@ -12,7 +12,6 @@
 .topBar {
     background-color: #003399;
     width: 100%;
-    height: auto;
 }
 
 .top2ndBar {
@@ -40,6 +39,10 @@
 
 .main-caro img{
     background-size: cover;
+}
+
+.main-caro figcaption{
+    margin-right: -30px;
 }
 
 /*  Picture page
@@ -93,6 +96,9 @@ footer {
 **********************************************/
 
 @media screen and (min-width: 640px) {
+    body {
+        background-color: aqua;
+    }
      
     .top_bar_img {
         margin: 5px 2%;
@@ -106,6 +112,9 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    body {
+        background-color: azure;
+    }
     
     .top_bar_img {
         margin: 5px 5%;

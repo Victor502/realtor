@@ -5,7 +5,7 @@ $('.picture-grid').slick({
     slidesToScroll: 1,
     infinite: false,
     dots: false,
-    arrows: true,
+    arrows: false,
     mobileFirst: true,
       responsive: [
     {
