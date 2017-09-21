@@ -14,7 +14,7 @@ $('.picture-grid').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
@@ -22,7 +22,7 @@ $('.picture-grid').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        dots: true
+        dots: false
       }
     },
     {
@@ -39,7 +39,7 @@ $('.picture-grid').slick({
 });
 
 $('.main-caro').slick({
-    dots: true,
+    dots: false,
   autoplay: true,
   autoplaySpeed: 3000,
 });
